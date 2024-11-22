@@ -1,0 +1,5 @@
+A = int(input("Enter a: "))
+B = int(input("Enter b: "))
+C = int(input("Enter c: "))
+q = (A&B)| ((B&C)&(B|C))
+print("output is: ",q)
